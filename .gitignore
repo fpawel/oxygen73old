@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+Win32
+build/*
+!build/img/
+!build/*.manifest
+__history
+__recovery
+.vscode
+*.exe
+.idea
+*.identcache
+*.local
+*.stat
