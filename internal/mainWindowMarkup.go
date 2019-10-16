@@ -123,11 +123,11 @@ func newMainwindow(mw *AppMainWindow) MainWindow {
 				},
 			},
 			TableView{
-				AssignTo:              &mw.tableViewParty,
-				AlternatingRowBGColor: walk.RGB(239, 239, 239),
-				CheckBoxes:            false,
-				ColumnsOrderable:      false,
-				MultiSelection:        true,
+				AssignTo:         &mw.tableViewParty,
+				AlternatingRowBG: true,
+				CheckBoxes:       false,
+				ColumnsOrderable: false,
+				MultiSelection:   true,
 				Font: Font{
 					Family:    "Arial",
 					PointSize: 10,
